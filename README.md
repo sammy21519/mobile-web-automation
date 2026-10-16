@@ -124,6 +124,7 @@ pytest --reruns 2                        # retry flaky tests (pytest-rerunfailur
 
 In VS Code: use the **Testing** panel (flask icon), or **Run and Debug**
 (`Cmd/Ctrl+Shift+D`) → *Run current test file* to run with breakpoints.
+![Test run demo](docs/demo.gif)
 
 ### Choosing the device
 
