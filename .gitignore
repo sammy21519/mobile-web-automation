@@ -1,8 +1,28 @@
+# ---- Python / tooling ---------------------------------------------------------
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environment (everyone creates their own with requirements.txt)
 .venv/
 venv/
-.pytest_cache/
-screenshots/*.png
-reports/*.html
-logs/*.log
+env/
+
+# ---- Test run output ----------------------------------------------------------
+# Ignore everything these folders collect during runs, but keep the empty
+# folders themselves (via .gitkeep) so the project structure stays visible.
+screenshots/*
+!screenshots/.gitkeep
+reports/*
+!reports/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# ---- OS / editor files --------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+
+# Personal secrets/settings, if you ever add them
+.env
