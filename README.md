@@ -51,9 +51,9 @@ mobile-web-automation/
 
 ## Example test — TC-001: Search a game on Twitch and open a streamer
 
-File: `tests/twitch/test_search_streamer.py`. Its test data sits at the top of the file:
 ![Test run demo](docs/demo.gif)
 
+File: `tests/twitch/test_search_streamer.py`. Its test data sits at the top of the file:
 ```python
 BASE_URL = "https://www.twitch.tv/"
 SEARCH_TERM = "StarCraft II"
