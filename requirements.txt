@@ -1,0 +1,10 @@
+# Browser automation (Selenium 4.6+ ships Selenium Manager, which downloads
+# the matching ChromeDriver automatically - no webdriver-manager needed)
+selenium>=4.25.0
+
+# Test runner + HTML report
+pytest>=8.0.0
+pytest-html>=4.1.0
+
+# Optional: re-run flaky tests against a live third-party site (use --reruns 2)
+pytest-rerunfailures>=14.0
