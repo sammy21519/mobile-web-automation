@@ -52,6 +52,7 @@ mobile-web-automation/
 ## Example test — TC-001: Search a game on Twitch and open a streamer
 
 File: `tests/twitch/test_search_streamer.py`. Its test data sits at the top of the file:
+![Test run demo](docs/demo.gif)
 
 ```python
 BASE_URL = "https://www.twitch.tv/"
@@ -124,7 +125,6 @@ pytest --reruns 2                        # retry flaky tests (pytest-rerunfailur
 
 In VS Code: use the **Testing** panel (flask icon), or **Run and Debug**
 (`Cmd/Ctrl+Shift+D`) → *Run current test file* to run with breakpoints.
-![Test run demo](docs/demo.gif)
 
 ### Choosing the device
 
